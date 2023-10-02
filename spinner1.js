@@ -32,8 +32,17 @@ setTimeout(() => {
     process.stdout.write('\r\\   ');
   }, 1500);
   
-  // Add more characters and delays to complete the circle
+ 
   setTimeout(() => {
     process.stdout.write('\r|   ');
   }, 1700);
+  
+  setTimeout(() => {
+    process.stdout.write('\r|   ');
+  }, 1900);
+
+  setTimeout(() => {
+    process.stdout.write('\r|   ');
+  }, 2100);
+  
   
